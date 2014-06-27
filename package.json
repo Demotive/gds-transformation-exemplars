@@ -1,0 +1,23 @@
+{
+  "name": "gds-transformation-exemplars",
+  "version": "0.0.0",
+  "description": "Slideshow for transformation exemplars",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Demotive/gds-transformation-exemplars.git"
+  },
+  "author": "demotive",
+  "devDependencies": {
+    "govuk_frontend_toolkit": "^1.4.0",
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^0.5.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-html-smoosher": "git://github.com/Demotive/grunt-html-smoosher.git",
+    "grunt-nodemon": "^0.2.1"
+  },
+  "dependencies": {
+    "express": "^4.4.5",
+    "request": "^2.36.0"
+  }
+}
