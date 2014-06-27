@@ -1,1 +1,43 @@
 @import '_colours';
+@import '_typography';
+@import '_measurements';
+
+$discovery: $purple;
+$alpha: $pink;
+$beta: $orange;
+$live: $grass-green;
+
+html, body {
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "nta", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 1;
+  color: $black;
+  background-color: $white;
+  text-rendering: opitimizeLegibility;
+}
+
+/* ******************************************************** */
+
+/*#slide-container {
+  transition: margin-left 1s ease-in-out;
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}*/

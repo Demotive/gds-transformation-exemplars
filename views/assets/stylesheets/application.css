@@ -1,0 +1,42 @@
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica");
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "nta", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 1;
+  color: #0b0c0c;
+  background-color: white;
+  text-rendering: opitimizeLegibility;
+}
+
+/* ******************************************************** */
+/*#slide-container {
+  transition: margin-left 1s ease-in-out;
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}*/
