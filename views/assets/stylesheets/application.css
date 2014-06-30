@@ -8,6 +8,34 @@
 @-o-viewport {
   width: device-width;
 }
+@font-face {
+  font-family: GDS-Logo;
+  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica");
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
 html, body {
   width: 100%;
   height: 100%;
@@ -17,15 +45,125 @@ body {
   padding: 0;
   margin: 0;
   font-family: "nta", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 70px;
+  font-weight: normal;
+  font-size: 250%;
   line-height: 1;
   color: #0b0c0c;
   background-color: white;
   text-rendering: opitimizeLegibility;
 }
 
+p {
+  line-height: 1.4;
+}
+
+img {
+  max-width: 100%;
+}
+
 /* ******************************************************** */
+.item {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 4.5%;
+}
+
+.details, .data {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* ******************************************************** */
+.crest {
+  width: 12%;
+}
+
+.url {
+  position: absolute;
+  bottom: 9%;
+}
+
+/* ******************************************************** */
+.details {
+  width: 66.666%;
+  padding: 7% 4.5% 0 0;
+}
+
+.exemplar {
+  font-size: 120%;
+  color: #bfc1c3;
+}
+
+.name {
+  font-size: 160%;
+  font-weight: bold;
+}
+
+.phase-tag {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 8px 0 0;
+  padding: 2px 5px 0;
+  font-family: "nta", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 300;
+  text-transform: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #d53880;
+  font-size: inherit;
+}
+@media (min-width: 641px) {
+  .phase-tag {
+    vertical-align: baseline;
+  }
+}
+@media (max-width: 640px) {
+  .phase-tag {
+    font-size: 14px;
+    line-height: 1.14286;
+  }
+}
+.phase-tag.beta {
+  background-color: #f47738;
+}
+.phase-tag.live {
+  background-color: #85994b;
+}
+
+.caption {
+  max-width: 50em;
+}
+
+/* ******************************************************** */
+.data {
+  width: 33.333%;
+}
+
+.circle {
+  width: 100%;
+  height: 0;
+  margin-top: 4.5%;
+  padding-bottom: 100%;
+  border-radius: 100%;
+  background-color: #bfc1c3;
+  text-align: center;
+}
+.circle .inner {
+  padding: 15% 0 0 0;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.circle img {
+  width: 80%;
+}
+
 /*#slide-container {
   transition: margin-left 1s ease-in-out;
   overflow: hidden;

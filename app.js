@@ -2,6 +2,8 @@ var express = require('express');
 var request = require('request');
 var app = express();
 
+app.use(express.static(__dirname + '/views'));
+
 app.get('/', function (req, res) {
   res.sendfile(__dirname + '/views/index.html');
 });
