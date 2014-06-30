@@ -1,6 +1,7 @@
 var express = require('express');
 var request = require('request');
 var app = express();
+var port = (process.env.PORT || 3000);
 
 app.use(express.static(__dirname + '/views'));
 
@@ -20,8 +21,8 @@ app.get('/', function (req, res) {
 
 // start the app
 
-app.listen(3000);
+app.listen(port);
 
 console.log('');
-console.log('Listening on port 3000');
+console.log('Listening on port ' + port);
 console.log('');
