@@ -18,7 +18,7 @@ var reveal = function() {
 var revealComplete = function() {
     // the reveal is complete, animations done. Set the length of time the "slide" should be visible for:
     timeoutID = window.setTimeout(conceal, 5000);
-    console.log(timeoutID);
+    //console.log(timeoutID);
 }
 
 
@@ -27,9 +27,13 @@ var revealComplete = function() {
 // ===================
 
 var loadData = function() {
+    console.log("load data");
     // change text / load data - cheating with yet another timeout for the time being
-    timeoutID = window.setTimeout(reveal, 1000);
-    console.log(timeoutID);
+    currentExemplar++;
+    if (currentExemplar === exemplars.length) {
+        currentExemplar = 0;
+    }
+    renderTemplate(exemplars[currentExemplar]);
 }
 
 
@@ -38,12 +42,21 @@ var loadData = function() {
 // This may well change to async loading I am sure
 // ===============================================
 
+var currentExemplar = 0;
 var exemplars = [
     {
         crest: "assets/images/crest-DoT.svg",
         number: 9,
         title: "View driving record",
         status: "beta",
+        intro: "If you’re a driver you’ll be able to view information from your record, including what vehicles you can drive and any penalty points and disqualifications",
+        url: "www.gov.uk/view-driving-licence"
+    },
+    {
+        crest: "assets/images/crest-DoT.svg",
+        number: 20,
+        title: "This is a test",
+        status: "live",
         intro: "If you’re a driver you’ll be able to view information from your record, including what vehicles you can drive and any penalty points and disqualifications",
         url: "www.gov.uk/view-driving-licence"
     }
@@ -56,8 +69,10 @@ var exemplars = [
 // ========================
 
 var renderTemplate = function(obj) {
+    console.log("render template");
     var rendered = Mustache.render(template, obj);
     $('#template-target').html(rendered);
+    timeoutID = window.setTimeout(reveal, 500);
 }
 
 
@@ -77,7 +92,7 @@ $(function(){
     renderTemplate(exemplars[0]);
 
     // DOM elements to track
-    $('.cover').bind('transitionend', function(e) {
+    $body.on('transitionend', '.cover', function(e) {
         e.preventDefault();
         // make sure you only pick ONE property to fire. Otherwise there are multiples.
         if (e.originalEvent.propertyName == 'height') {
@@ -85,7 +100,7 @@ $(function(){
         }
     });
 
-    $('.last-to-show').bind('transitionend', function(e) {
+    $body.on('transitionend', '.last-to-show', function(e) {
         e.preventDefault();
         // make sure you only pick ONE property to fire. Otherwise there are multiples.
         if (e.originalEvent.propertyName == 'opacity') {
@@ -94,7 +109,7 @@ $(function(){
     });
 
     // not sure why I need to stall like this for the animation to run, but I do.
-    timeoutID = window.setTimeout(reveal, 1);
-    console.log(timeoutID);
+    //timeoutID = window.setTimeout(reveal, 1);
+    //console.log(timeoutID);
 
 });
