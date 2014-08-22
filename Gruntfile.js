@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         files: ['<%= globalConfig.scssFile %>'],
         tasks: ['sass'],
         options: {
-          spawn: false,
+          spawn: false
         }
       }
     },
