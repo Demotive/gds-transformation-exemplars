@@ -183,6 +183,10 @@ img {
   &.live {
     background-color: $live;
   }
+  &.public {
+    color: $black;
+    background-color: transparent;
+  }
 
 }
 

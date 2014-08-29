@@ -214,6 +214,10 @@ img {
 .phase-tag.live {
   background-color: #85994b;
 }
+.phase-tag.public {
+  color: #0b0c0c;
+  background-color: transparent;
+}
 
 .lede {
   max-width: 50em;
