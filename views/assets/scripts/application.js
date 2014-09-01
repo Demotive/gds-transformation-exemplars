@@ -134,7 +134,7 @@ var exemplars = [
         qualifier: "anticipated volume"
     },
     {
-        crest: "assets/images/crest-DoT.svg",
+        crest: "assets/images/crest-dot.svg",
         number: 9,
         title: "View driving licence",
         status: "beta",
@@ -237,11 +237,91 @@ var exemplars = [
         qualifier: "anticipated volume"
     },
     {
-        crest: "assets/images/crest-dot.svg",
+        crest: "assets/images/crest-hmrc.svg",
+        number: 18,
+        title: "Agent online self-serve",
+        status: "alpha",
+        intro: "If you’re a tax agent you’ll be able to fully manage your clients’ tax with a simple online service",
+        url: "?",
+        stat: "4.9m",
+        statline: "small businesses and people in self assessment",
+        qualifier: "anticipated volume"
+    },
+    {
+        crest: "assets/images/crest-ho.svg",
+        number: 19,
+        title: "Registered traveller service",
+        status: "beta",
+        intro: "If you’re an eligible, frequent traveller to the UK you’ll be able to easily apply to use e-passport gates, cutting time queuing at airports",
+        url: "?",
+        stat: "4.9m",
+        statline: "small businesses and people in self assessment",
+        qualifier: "anticipated volume"
+    },
+    {
+        crest: "assets/images/crest-ho.svg",
         number: 20,
-        title: "This is a test",
+        title: "Passports",
+        status: "beta",
+        intro: "If you need to renew your passport you’ll be able to do it using a simple online service",
+        url: "?",
+        stat: "4.9m",
+        statline: "small businesses and people in self assessment",
+        qualifier: "anticipated volume"
+    },
+    {
+        crest: "assets/images/crest-ho.svg",
+        number: 21,
+        title: "Visas",
+        status: "beta",
+        publicbeta: "true",
+        intro: "If you need a visa to visit the UK you’ll be able to apply using a simple online service",
+        url: "www.gov.uk/view-driving-licence",
+        stat: "200k",
+        statline: "digital applications",
+        qualifier: "over the past 9 weeks"
+    },
+    {
+        crest: "assets/images/crest-moj.svg",
+        number: 22,
+        title: "Civil claims",
         status: "live",
-        intro: "If you’re a driver you’ll be able to view information from your record, including what vehicles you can drive and any penalty points and disqualifications",
+        intro: "Saving people money and hassle by creating a digital service for small claims, including money and possession claims",
+        url: "www.gov.uk/view-driving-licence",
+        stat: "200k",
+        statline: "digital applications",
+        qualifier: "over the past 9 weeks"
+    },
+    {
+        crest: "assets/images/crest-moj.svg",
+        number: 23,
+        title: "Apply to an employment tribunal",
+        status: "beta",
+        publicbeta: "true",
+        intro: "If you’re lodging an appeal to an employment tribunal you’ll be able to apply and pay the accompanying fee online",
+        url: "www.gov.uk/view-driving-licence",
+        stat: "200k",
+        statline: "digital applications",
+        qualifier: "over the past 9 weeks"
+    },
+    {
+        crest: "assets/images/crest-moj.svg",
+        number: 24,
+        title: "Prison visit booking",
+        status: "beta",
+        publicbeta: "true",
+        intro: "If you’re visiting a prison you’ll be able to book using a single service, offering a simpler, faster experience for families, friends and professionals",
+        url: "www.gov.uk/view-driving-licence",
+        stat: "200k",
+        statline: "digital applications",
+        qualifier: "over the past 9 weeks"
+    },
+    {
+        crest: "assets/images/crest-moj.svg",
+        number: 25,
+        title: "Lasting power of attorney",
+        status: "live",
+        intro: "If you’re making a lasting power of attorney, it’ll be easier using a simple online service, helping people to plan ahead for an uncertain future",
         url: "www.gov.uk/view-driving-licence",
         stat: "200k",
         statline: "digital applications",
