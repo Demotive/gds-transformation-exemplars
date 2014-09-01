@@ -30,20 +30,6 @@ $live: $grass-green;
   background-color: $white;
 }
 
-.crest-cover {
-  position: relative;
-  margin-top: -4.2em;
-  right: 0;
-  height: 4.2em;
-}
-
-.title-cover {
-  position: relative;
-  margin-top: -3.3em;
-  right: 0;
-  height: 3.3em;
-}
-
 .lede {
   opacity: 0;
   transform: translateX(10px);
@@ -61,14 +47,19 @@ $live: $grass-green;
 
 body.bring-in {
 
-  .crest-cover .slider {
-    width: 80%;
+  .crest .slider {
+    width: 0;
     transition: width 0.5s ease-out;
   }
 
-  .title-cover .slider {
-    width: 0;
+  .exemplar .slider {
+    width: 65%;
     transition: width 0.75s ease-out 0.3s;
+  }
+
+  .name .slider {
+    width: 0;
+    transition: width 1s ease-out 0.3s;
   }
 
   .lede {
@@ -147,6 +138,7 @@ img {
 /* ******************************************************** */
 
 .crest {
+  position: relative;
   width: 16%;
 }
 
@@ -164,18 +156,21 @@ img {
 }
 
 .exemplar {
-  font-size: 120%;
+  position: relative;
+  font-size: 110%;
   color: $grey-2;
 }
 
 .name {
-  font-size: 160%;
+  position: relative;
+  font-size: 140%;
   font-weight: bold;
 }
 
 .phase-tag {
   @include phase-tag;
-  font-size: inherit;
+  font-size: 75%;
+  margin-right: 0;
 
   &.beta {
     background-color: $beta;
@@ -208,7 +203,8 @@ img {
   margin-top: 4.5%;
   padding-bottom: 100%;
   border-radius: 100%;
-  background-color: $grey-2;
+  background-color: $grey-3;
+  color: $black;
   text-align: center;
 }
 
@@ -229,7 +225,7 @@ img {
 }
 
 #number {
-  font-size: 450%;
+  font-size: 375%;
   font-weight: bold;
 }
 
