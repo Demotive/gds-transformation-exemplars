@@ -27,7 +27,6 @@ var revealComplete = function() {
 // ===================
 
 var loadData = function() {
-    console.log("load data");
     // change text / load data - cheating with yet another timeout for the time being
     currentExemplar++;
     if (currentExemplar === exemplars.length) {
@@ -51,9 +50,8 @@ var exemplars = [
         status: "live",
         intro: "A digital service to make registering to vote simpler, clearer and faster",
         url: "www.gov.uk/register-to-vote",
-        stat: "975.1k",
-        statline: "digital applications",
-        qualifier: "since launch"
+        stat: "46m",
+        statline: "confirmed in the first year"
     },
     {
         crest: "assets/images/crest-bis.svg",
@@ -62,9 +60,8 @@ var exemplars = [
         status: "beta",
         intro: "If you want to advertise or apply for an apprenticeship you’ll be able to do it quickly and easily online",
         url: "www.gov.uk/apply-apprenticeship",
-        stat: "1.76m",
-        statline: "transactions per year",
-        qualifier: "Apr 2013 to Mar 2014"
+        stat: "1.38m",
+        statline: "applications per year"
     },
     {
         crest: "assets/images/crest-bis.svg",
@@ -73,9 +70,8 @@ var exemplars = [
         status: "beta",
         intro: "If you want to renew a patent you’ll be able to do it quickly and easily online",
         url: "",
-        stat: "380k",
-        statline: "renewals a year",
-        qualifier: "anticipated volume"
+        stat: "270k",
+        statline: "transactions a year"
     },
     {
         crest: "assets/images/crest-bis.svg",
@@ -84,9 +80,8 @@ var exemplars = [
         status: "live",
         intro: "If your company has recently become insolvent you’ll be able to apply for redundancy payment online",
         url: "www.gov.uk/renew-patent",
-        stat: "270k",
-        statline: "transactions per year",
-        qualifier: "anticipated volume"
+        stat: "380k",
+        statline: "renewals per year"
     },
     {
         crest: "assets/images/crest-bis.svg",
@@ -95,9 +90,8 @@ var exemplars = [
         status: "alpha",
         intro: "A digital-first service that will support buying or selling a house",
         url: "",
-        stat: "000?",
-        statline: "things?",
-        qualifier: "small print?"
+        stat: "",
+        statline: ""
     },
     {
         crest: "assets/images/crest-bis.svg",
@@ -107,8 +101,7 @@ var exemplars = [
         intro: "If you have, or are applying for, student loans and grants you’ll be able to manage them using an improved online service",
         url: "www.gov.uk/apply-online-for-student-finance",
         stat: "1.3m",
-        statline: "students supported",
-        qualifier: "anticipated volume"
+        statline: "students supported"
     },
     {
         crest: "assets/images/crest-defra.svg",
@@ -119,8 +112,7 @@ var exemplars = [
         intro: "You can register as a waste carrier using this quick and easy online service",
         url: "www.gov.uk/waste-carrier-or-broker-registration",
         stat: "100k",
-        statline: "registrations in first year",
-        qualifier: "anticipated volume"
+        statline: "registrations in first year"
     },
     {
         crest: "assets/images/crest-defra.svg",
@@ -130,8 +122,7 @@ var exemplars = [
         intro: "You’ll be able to submit accurate and verifiable information online about how you use your land, so you can claim subsidies under the Common Agricultural Policy",
         url: "",
         stat: "105k",
-        statline: "transactions a year",
-        qualifier: "anticipated volume"
+        statline: "transactions a year"
     },
     {
         crest: "assets/images/crest-dot.svg",
@@ -141,9 +132,8 @@ var exemplars = [
         publicbeta: "true",
         intro: "If you’re a driver you’ll be able to view information from your record, including what vehicles you can drive and any penalty points and disqualifications",
         url: "www.gov.uk/view-driving-licence",
-        stat: "67.1k",
-        statline: "digital applications",
-        qualifier: "over the past 9 weeks"
+        stat: "6m",
+        statline: "driver enquiries a year"
     },
     {
         crest: "assets/images/crest-dot.svg",
@@ -151,10 +141,9 @@ var exemplars = [
         title: "Personalised registrations",
         status: "beta",
         intro: "If you want to transfer or apply for a number plate you’ll be able do it online, without having to visit a DVLA office",
-        url: "?",
+        url: "",
         stat: "1.6m",
-        statline: "transactions a year",
-        qualifier: "anticipated volume"
+        statline: "transactions a year"
     },
     {
         crest: "assets/images/crest-dot.svg",
@@ -162,10 +151,9 @@ var exemplars = [
         title: "Vehicle management",
         status: "beta",
         intro: "If you want to transfer ownership of a car you’ll be able to do it yourself online or using an intermediary",
-        url: "?",
+        url: "",
         stat: "18m",
-        statline: "transactions a year",
-        qualifier: "anticipated volume"
+        statline: "transactions a year"
     },
     {
         crest: "assets/images/crest-dwp.svg",
@@ -175,9 +163,8 @@ var exemplars = [
         publicbeta: "true",
         intro: "If you’re a carer you’ll be able to apply for financial help from government using a simple online service",
         url: "www.gov.uk/carers-allowance",
-        stat: "101.5k",
-        statline: "digital applications",
-        qualifier: "since Oct 2013"
+        stat: "3.2m",
+        statline: "carers in the UK"
     },
     {
         crest: "assets/images/crest-dwp.svg",
@@ -185,10 +172,9 @@ var exemplars = [
         title: "Claim personal independence payment (PIP)",
         status: "alpha",
         intro: "If you’re applying for financial help from government for living with disabilities there’ll be a simple digital service for you to use",
-        url: "?",
+        url: "",
         stat: "2m",
-        statline: "people supported",
-        qualifier: "anticipated volume"
+        statline: "people supported"
     },
     {
         crest: "assets/images/crest-dwp.svg",
@@ -196,10 +182,9 @@ var exemplars = [
         title: "Universal Credit",
         status: "beta",
         intro: "Universal Credit will roll 6 benefits and tax credits into 1 to simplify the system and ensure people are better off in work",
-        url: "?",
+        url: "",
         stat: "10m",
-        statline: "adults supported",
-        qualifier: "anticipated volume"
+        statline: "adults supported"
     },
     {
         crest: "assets/images/crest-hmrc.svg",
@@ -207,10 +192,9 @@ var exemplars = [
         title: "PAYE for employees",
         status: "beta",
         intro: "If you want to check or update your PAYE status you’ll be able to do it online, and see the effect on the tax you pay",
-        url: "?",
+        url: "",
         stat: "41m",
-        statline: "registered PAYE employees",
-        qualifier: "anticipated volume"
+        statline: "registered PAYE employees"
     },
     {
         crest: "assets/images/crest-hmrc.svg",
@@ -219,10 +203,9 @@ var exemplars = [
         status: "beta",
         publicbeta: "true",
         intro: "If you’re registered for self-assessment you’ll be able to manage your tax with a fully digital service, without any more confusing paper correspondence",
-        url: "?",
+        url: "",
         stat: "10m",
-        statline: "registered for self-assessment",
-        qualifier: "anticipated volume"
+        statline: "registered for self-assessment"
     },
     {
         crest: "assets/images/crest-hmrc.svg",
@@ -231,10 +214,9 @@ var exemplars = [
         status: "beta",
         publicbeta: "true",
         intro: "If you run a business you’ll be able to check how much tax you owe, learn about what you can and can’t claim, and pay your tax &mdash; all in one place",
-        url: "?",
+        url: "",
         stat: "4.9m",
-        statline: "small businesses and people in self assessment",
-        qualifier: "anticipated volume"
+        statline: "small businesses and people in self assessment"
     },
     {
         crest: "assets/images/crest-hmrc.svg",
@@ -242,10 +224,9 @@ var exemplars = [
         title: "Agent online self-serve",
         status: "alpha",
         intro: "If you’re a tax agent you’ll be able to fully manage your clients’ tax with a simple online service",
-        url: "?",
-        stat: "4.9m",
-        statline: "small businesses and people in self assessment",
-        qualifier: "anticipated volume"
+        url: "",
+        stat: "120k",
+        statline: "tax agents"
     },
     {
         crest: "assets/images/crest-ho.svg",
@@ -253,10 +234,9 @@ var exemplars = [
         title: "Registered traveller service",
         status: "beta",
         intro: "If you’re an eligible, frequent traveller to the UK you’ll be able to easily apply to use e-passport gates, cutting time queuing at airports",
-        url: "?",
-        stat: "4.9m",
-        statline: "small businesses and people in self assessment",
-        qualifier: "anticipated volume"
+        url: "",
+        stat: "1m",
+        statline: "journeys per year within 5 years"
     },
     {
         crest: "assets/images/crest-ho.svg",
@@ -264,10 +244,9 @@ var exemplars = [
         title: "Passports",
         status: "beta",
         intro: "If you need to renew your passport you’ll be able to do it using a simple online service",
-        url: "?",
-        stat: "4.9m",
-        statline: "small businesses and people in self assessment",
-        qualifier: "anticipated volume"
+        url: "",
+        stat: "",
+        statline: ""
     },
     {
         crest: "assets/images/crest-ho.svg",
@@ -276,10 +255,9 @@ var exemplars = [
         status: "beta",
         publicbeta: "true",
         intro: "If you need a visa to visit the UK you’ll be able to apply using a simple online service",
-        url: "www.gov.uk/view-driving-licence",
-        stat: "200k",
-        statline: "digital applications",
-        qualifier: "over the past 9 weeks"
+        url: "",
+        stat: "3.4m",
+        statline: "visas issued a year"
     },
     {
         crest: "assets/images/crest-moj.svg",
@@ -287,10 +265,9 @@ var exemplars = [
         title: "Civil claims",
         status: "live",
         intro: "Saving people money and hassle by creating a digital service for small claims, including money and possession claims",
-        url: "www.gov.uk/view-driving-licence",
-        stat: "200k",
-        statline: "digital applications",
-        qualifier: "over the past 9 weeks"
+        url: "",
+        stat: "1.5m",
+        statline: "claims a year"
     },
     {
         crest: "assets/images/crest-moj.svg",
@@ -299,22 +276,20 @@ var exemplars = [
         status: "beta",
         publicbeta: "true",
         intro: "If you’re lodging an appeal to an employment tribunal you’ll be able to apply and pay the accompanying fee online",
-        url: "www.gov.uk/view-driving-licence",
+        url: "",
         stat: "200k",
-        statline: "digital applications",
-        qualifier: "over the past 9 weeks"
+        statline: "transactions per year"
     },
     {
         crest: "assets/images/crest-moj.svg",
         number: 24,
         title: "Prison visit booking",
-        status: "beta",
+        status: "live",
         publicbeta: "true",
         intro: "If you’re visiting a prison you’ll be able to book using a single service, offering a simpler, faster experience for families, friends and professionals",
-        url: "www.gov.uk/view-driving-licence",
-        stat: "200k",
-        statline: "digital applications",
-        qualifier: "over the past 9 weeks"
+        url: "www.gov.uk/prison-visits",
+        stat: "1.5m",
+        statline: "visits per year"
     },
     {
         crest: "assets/images/crest-moj.svg",
@@ -322,10 +297,9 @@ var exemplars = [
         title: "Lasting power of attorney",
         status: "live",
         intro: "If you’re making a lasting power of attorney, it’ll be easier using a simple online service, helping people to plan ahead for an uncertain future",
-        url: "www.gov.uk/view-driving-licence",
-        stat: "200k",
-        statline: "digital applications",
-        qualifier: "over the past 9 weeks"
+        url: "www.gov.uk/lasting-power-of-attorney",
+        stat: "300k",
+        statline: "applications a year"
     }
 ];
 
@@ -342,6 +316,16 @@ var renderTemplate = function(obj) {
     $("#template-target").html(template(obj));
 
     timeoutID = window.setTimeout(reveal, 500);
+
+    if (obj.stat === "") {
+        $('#circle-cover').css({
+            visibility: 'visible'
+        })
+    } else {
+        $('#circle-cover').css({
+            visibility: 'hidden'
+        })
+    }
 }
 
 
