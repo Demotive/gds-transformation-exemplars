@@ -17,7 +17,7 @@ var reveal = function() {
 
 var revealComplete = function() {
     // the reveal is complete, animations done. Set the length of time the "slide" should be visible for:
-    timeoutID = window.setTimeout(conceal, 5000);
+    timeoutID = window.setTimeout(conceal, 6000);
     //console.log(timeoutID);
 }
 
