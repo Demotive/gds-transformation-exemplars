@@ -108,16 +108,16 @@ body.bring-in {
     transition: all 0.4s ease-out 1.6s;
   }
 
-  .url {
-    opacity: 1;
-    //transform: translateX(0);
-    transition: all 0.4s ease-out 1.6s;
-  }
-
   .circle {
     opacity: 1;
     transform: scale(1);
-    transition: all 0.4s ease-out 2.4s;
+    transition: all 0.4s ease-out 1.9s;
+  }
+
+  .url {
+    opacity: 1;
+    //transform: translateX(0);
+    transition: all 0.4s ease-out 2.2s;
   }
 
 }

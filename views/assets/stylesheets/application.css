@@ -119,14 +119,14 @@ body.bring-in .lede {
   opacity: 1;
   transition: all 0.4s ease-out 1.6s;
 }
-body.bring-in .url {
-  opacity: 1;
-  transition: all 0.4s ease-out 1.6s;
-}
 body.bring-in .circle {
   opacity: 1;
   transform: scale(1);
-  transition: all 0.4s ease-out 2.4s;
+  transition: all 0.4s ease-out 1.9s;
+}
+body.bring-in .url {
+  opacity: 1;
+  transition: all 0.4s ease-out 2.2s;
 }
 
 body.slide-out .cover {
