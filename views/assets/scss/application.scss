@@ -17,8 +17,9 @@ $live: $grass-green;
   top: 0;
   right: 0;
   left: 0;
-  height: 0;
+  bottom: 0;
   background-color: $white;
+  opacity: 0;
 }
 
 .slider {
@@ -30,14 +31,33 @@ $live: $grass-green;
   background-color: $white;
 }
 
-.lede {
+// -------
+
+/*.crest {
+  opacity: 0;
+  transform: translateX(10px);
+}*/
+
+.exemplar {
   opacity: 0;
   transform: translateX(10px);
 }
 
-.url {
+.name {
   opacity: 0;
   transform: translateX(10px);
+}
+
+// -------
+
+.lede {
+  opacity: 0;
+  //transform: translateX(10px);
+}
+
+.url {
+  opacity: 0;
+  //transform: translateX(10px);
 }
 
 .circle {
@@ -49,35 +69,55 @@ body.bring-in {
 
   .crest .slider {
     width: 0;
-    transition: width 0.5s ease-out;
+    transition: width 0.4s ease-out;
   }
 
+  /*
   .exemplar .slider {
     width: 65%;
-    transition: width 0.75s ease-out 0.5s;
+    transition: width 0.4s ease-out 0.3s;
   }
 
   .name .slider {
     width: 0;
-    transition: width 1s ease-out 0.75s;
+    transition: width 0.4s ease-out 0.6s;
+  }
+  */
+
+  .crest {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.4s ease-out;
+  }
+
+  .exemplar {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.4s ease-out 0.3s;
+  }
+
+  .name {
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 0.4s ease-out 0.6s;
   }
 
   .lede {
     opacity: 1;
-    transform: translateX(0);
-    transition: all 0.5s ease-out 1.5s;
+    //transform: translateX(0);
+    transition: all 0.4s ease-out 1.6s;
   }
 
   .url {
     opacity: 1;
-    transform: translateX(0);
-    transition: all 0.5s ease-out 1.6s;
+    //transform: translateX(0);
+    transition: all 0.4s ease-out 1.6s;
   }
 
   .circle {
     opacity: 1;
     transform: scale(1);
-    transition: all 0.25s ease-out 2.5s;
+    transition: all 0.4s ease-out 2.4s;
   }
 
 }
@@ -85,8 +125,8 @@ body.bring-in {
 body.slide-out {
 
   .cover {
-    height: 100%;
-    transition: height 0.5s ease-out;
+    opacity: 1;
+    transition: opacity 0.2s ease-out;
   }
 
 }
@@ -103,7 +143,6 @@ body.slide-out {
   width: 1px;
   height: 1px;
   overflow: hidden;
-  
 }
 
 
@@ -141,7 +180,7 @@ img {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  padding: 4.5%; 
+  padding: 4.5%;
 }
 
 .details, .data {
@@ -167,7 +206,7 @@ img {
 
 .details {
   width: 66.666%;
-  padding: 7% 7% 0 0;
+  padding-top: 7%;
 }
 
 .exemplar {
@@ -185,7 +224,7 @@ img {
 .phase-tag {
   @include phase-tag;
   font-size: 75%;
-  margin: 0 0.2em;
+  margin: 0 0 0 0.2em;
 
   &.beta {
     background-color: $beta;
@@ -202,7 +241,7 @@ img {
 }
 
 .lede {
-  max-width: 50em;
+  margin-right: 9%;
 }
 
 

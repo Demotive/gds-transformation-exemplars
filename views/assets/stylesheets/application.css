@@ -42,8 +42,9 @@
   top: 0;
   right: 0;
   left: 0;
-  height: 0;
+  bottom: 0;
   background-color: white;
+  opacity: 0;
 }
 
 .slider {
@@ -55,14 +56,26 @@
   background-color: white;
 }
 
-.lede {
+/*.crest {
+  opacity: 0;
+  transform: translateX(10px);
+}*/
+.exemplar {
   opacity: 0;
   transform: translateX(10px);
 }
 
-.url {
+.name {
   opacity: 0;
   transform: translateX(10px);
+}
+
+.lede {
+  opacity: 0;
+}
+
+.url {
+  opacity: 0;
 }
 
 .circle {
@@ -70,37 +83,55 @@
   transform: scale(0.98);
 }
 
+body.bring-in {
+  /*
+  .exemplar .slider {
+    width: 65%;
+    transition: width 0.4s ease-out 0.3s;
+  }
+
+  .name .slider {
+    width: 0;
+    transition: width 0.4s ease-out 0.6s;
+  }
+  */
+}
 body.bring-in .crest .slider {
   width: 0;
-  transition: width 0.5s ease-out;
+  transition: width 0.4s ease-out;
 }
-body.bring-in .exemplar .slider {
-  width: 65%;
-  transition: width 0.75s ease-out 0.5s;
+body.bring-in .crest {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.4s ease-out;
 }
-body.bring-in .name .slider {
-  width: 0;
-  transition: width 1s ease-out 0.75s;
+body.bring-in .exemplar {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.4s ease-out 0.3s;
+}
+body.bring-in .name {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.4s ease-out 0.6s;
 }
 body.bring-in .lede {
   opacity: 1;
-  transform: translateX(0);
-  transition: all 0.5s ease-out 1.5s;
+  transition: all 0.4s ease-out 1.6s;
 }
 body.bring-in .url {
   opacity: 1;
-  transform: translateX(0);
-  transition: all 0.5s ease-out 1.6s;
+  transition: all 0.4s ease-out 1.6s;
 }
 body.bring-in .circle {
   opacity: 1;
   transform: scale(1);
-  transition: all 0.25s ease-out 2.5s;
+  transition: all 0.4s ease-out 2.4s;
 }
 
 body.slide-out .cover {
-  height: 100%;
-  transition: height 0.5s ease-out;
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
 }
 
 /* ******************************************************** */
@@ -168,7 +199,7 @@ img {
 /* ******************************************************** */
 .details {
   width: 66.666%;
-  padding: 7% 7% 0 0;
+  padding-top: 7%;
 }
 
 .exemplar {
@@ -201,7 +232,7 @@ img {
   color: #fff;
   background-color: #d53880;
   font-size: 75%;
-  margin: 0 0.2em;
+  margin: 0 0 0 0.2em;
 }
 @media (min-width: 641px) {
   .phase-tag {
@@ -227,7 +258,7 @@ img {
 }
 
 .lede {
-  max-width: 50em;
+  margin-right: 9%;
 }
 
 /* ******************************************************** */

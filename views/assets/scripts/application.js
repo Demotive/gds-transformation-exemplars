@@ -117,7 +117,7 @@ var exemplars = [
     {
         crest: "/assets/images/crest-defra.svg",
         number: 8,
-        title: "Rural support (Common Agricultural Policy)",
+        title: "Rural support",
         status: "beta",
         intro: "You’ll be able to submit accurate and verifiable information online about how you use your land, so you can claim subsidies under the Common Agricultural Policy",
         url: "www.gov.uk/transformation/rural-support",
@@ -169,7 +169,7 @@ var exemplars = [
     {
         crest: "/assets/images/crest-dwp.svg",
         number: 13,
-        title: "Claim personal independence payment (PIP)",
+        title: "Claim personal independence payment",
         status: "alpha",
         intro: "If you’re applying for financial help from government for living with disabilities there’ll be a simple digital service for you to use",
         url: "www.gov.uk/transformation/apply-pip",
@@ -351,7 +351,7 @@ $(function(){
     $body.on('transitionend', '.cover', function(e) {
         e.preventDefault();
         // make sure you only pick ONE property to fire. Otherwise there are multiples.
-        if (e.originalEvent.propertyName == 'height') {
+        if (e.originalEvent.propertyName == 'opacity') {
             concealComplete();
         }
     });
