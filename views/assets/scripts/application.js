@@ -44,7 +44,7 @@ var loadData = function() {
 var currentExemplar = 0;
 var exemplars = [
     {
-        crest: "assets/images/crest-co.svg",
+        crest: "/assets/images/crest-co.svg",
         number: 1,
         title: "Electoral registration",
         status: "live",
@@ -54,7 +54,7 @@ var exemplars = [
         statline: "confirmed in the first year"
     },
     {
-        crest: "assets/images/crest-bis.svg",
+        crest: "/assets/images/crest-bis.svg",
         number: 2,
         title: "Apprenticeships applications",
         status: "beta",
@@ -64,7 +64,7 @@ var exemplars = [
         statline: "applications per year"
     },
     {
-        crest: "assets/images/crest-bis.svg",
+        crest: "/assets/images/crest-bis.svg",
         number: 3,
         title: "Redundancy payments",
         status: "beta",
@@ -74,7 +74,7 @@ var exemplars = [
         statline: "transactions a year"
     },
     {
-        crest: "assets/images/crest-bis.svg",
+        crest: "/assets/images/crest-bis.svg",
         number: 4,
         title: "Renew a patent",
         status: "live",
@@ -84,7 +84,7 @@ var exemplars = [
         statline: "renewals per year"
     },
     {
-        crest: "assets/images/crest-bis.svg",
+        crest: "/assets/images/crest-bis.svg",
         number: 5,
         title: "Land registry",
         status: "alpha",
@@ -94,7 +94,7 @@ var exemplars = [
         statline: ""
     },
     {
-        crest: "assets/images/crest-bis.svg",
+        crest: "/assets/images/crest-bis.svg",
         number: 6,
         title: "Student finance",
         status: "live",
@@ -104,7 +104,7 @@ var exemplars = [
         statline: "students supported"
     },
     {
-        crest: "assets/images/crest-defra.svg",
+        crest: "/assets/images/crest-defra.svg",
         number: 7,
         title: "Waste carrier registration",
         status: "beta",
@@ -115,7 +115,7 @@ var exemplars = [
         statline: "registrations in first year"
     },
     {
-        crest: "assets/images/crest-defra.svg",
+        crest: "/assets/images/crest-defra.svg",
         number: 8,
         title: "Rural support (Common Agricultural Policy)",
         status: "beta",
@@ -125,7 +125,7 @@ var exemplars = [
         statline: "transactions a year"
     },
     {
-        crest: "assets/images/crest-dot.svg",
+        crest: "/assets/images/crest-dot.svg",
         number: 9,
         title: "View driving licence",
         status: "beta",
@@ -136,7 +136,7 @@ var exemplars = [
         statline: "driver enquiries a year"
     },
     {
-        crest: "assets/images/crest-dot.svg",
+        crest: "/assets/images/crest-dot.svg",
         number: 10,
         title: "Personalised registrations",
         status: "beta",
@@ -146,7 +146,7 @@ var exemplars = [
         statline: "transactions a year"
     },
     {
-        crest: "assets/images/crest-dot.svg",
+        crest: "/assets/images/crest-dot.svg",
         number: 11,
         title: "Vehicle management",
         status: "beta",
@@ -156,7 +156,7 @@ var exemplars = [
         statline: "transactions a year"
     },
     {
-        crest: "assets/images/crest-dwp.svg",
+        crest: "/assets/images/crest-dwp.svg",
         number: 12,
         title: "Carer’s allowance",
         status: "beta",
@@ -167,7 +167,7 @@ var exemplars = [
         statline: "carers in the UK"
     },
     {
-        crest: "assets/images/crest-dwp.svg",
+        crest: "/assets/images/crest-dwp.svg",
         number: 13,
         title: "Claim personal independence payment (PIP)",
         status: "alpha",
@@ -177,7 +177,7 @@ var exemplars = [
         statline: "people supported"
     },
     {
-        crest: "assets/images/crest-dwp.svg",
+        crest: "/assets/images/crest-dwp.svg",
         number: 14,
         title: "Universal Credit",
         status: "beta",
@@ -187,7 +187,7 @@ var exemplars = [
         statline: "adults supported"
     },
     {
-        crest: "assets/images/crest-hmrc.svg",
+        crest: "/assets/images/crest-hmrc.svg",
         number: 15,
         title: "PAYE for employees",
         status: "beta",
@@ -197,7 +197,7 @@ var exemplars = [
         statline: "registered PAYE employees"
     },
     {
-        crest: "assets/images/crest-hmrc.svg",
+        crest: "/assets/images/crest-hmrc.svg",
         number: 16,
         title: "Digital self-assessment",
         status: "beta",
@@ -208,7 +208,7 @@ var exemplars = [
         statline: "registered for self-assessment"
     },
     {
-        crest: "assets/images/crest-hmrc.svg",
+        crest: "/assets/images/crest-hmrc.svg",
         number: 17,
         title: "Your tax account",
         status: "beta",
@@ -219,7 +219,7 @@ var exemplars = [
         statline: "small businesses and people in self assessment"
     },
     {
-        crest: "assets/images/crest-hmrc.svg",
+        crest: "/assets/images/crest-hmrc.svg",
         number: 18,
         title: "Agent online self-serve",
         status: "alpha",
@@ -229,7 +229,7 @@ var exemplars = [
         statline: "tax agents"
     },
     {
-        crest: "assets/images/crest-ho.svg",
+        crest: "/assets/images/crest-ho.svg",
         number: 19,
         title: "Registered traveller service",
         status: "beta",
@@ -239,7 +239,7 @@ var exemplars = [
         statline: "journeys per year within 5 years"
     },
     {
-        crest: "assets/images/crest-ho.svg",
+        crest: "/assets/images/crest-ho.svg",
         number: 20,
         title: "Passports",
         status: "beta",
@@ -249,7 +249,7 @@ var exemplars = [
         statline: ""
     },
     {
-        crest: "assets/images/crest-ho.svg",
+        crest: "/assets/images/crest-ho.svg",
         number: 21,
         title: "Visas",
         status: "beta",
@@ -260,7 +260,7 @@ var exemplars = [
         statline: "visas issued a year"
     },
     {
-        crest: "assets/images/crest-moj.svg",
+        crest: "/assets/images/crest-moj.svg",
         number: 22,
         title: "Civil claims",
         status: "live",
@@ -270,7 +270,7 @@ var exemplars = [
         statline: "claims a year"
     },
     {
-        crest: "assets/images/crest-moj.svg",
+        crest: "/assets/images/crest-moj.svg",
         number: 23,
         title: "Apply to an employment tribunal",
         status: "beta",
@@ -281,7 +281,7 @@ var exemplars = [
         statline: "transactions per year"
     },
     {
-        crest: "assets/images/crest-moj.svg",
+        crest: "/assets/images/crest-moj.svg",
         number: 24,
         title: "Prison visit booking",
         status: "live",
@@ -292,7 +292,7 @@ var exemplars = [
         statline: "visits per year"
     },
     {
-        crest: "assets/images/crest-moj.svg",
+        crest: "/assets/images/crest-moj.svg",
         number: 25,
         title: "Lasting power of attorney",
         status: "live",

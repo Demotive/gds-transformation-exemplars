@@ -91,6 +91,21 @@ body.slide-out {
 
 }
 
+/* ******************************************************** */
+
+/* UGH. */
+
+#preload {
+  visibility: hidden;
+  position: absolute;
+  left: -999em;
+  top: -999em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  
+}
+
 
 /* ******************************************************** */
 
