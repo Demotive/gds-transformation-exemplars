@@ -69,7 +69,7 @@ var exemplars = [
         title: "Redundancy payments",
         status: "beta",
         intro: "If you want to renew a patent you’ll be able to do it quickly and easily online",
-        url: "",
+        url: "www.gov.uk/transformation/redundancy-payment",
         stat: "270k",
         statline: "transactions a year"
     },
@@ -89,7 +89,7 @@ var exemplars = [
         title: "Land registry",
         status: "alpha",
         intro: "A digital-first service that will support buying or selling a house",
-        url: "",
+        url: "www.gov.uk/transformation/land-registry",
         stat: "",
         statline: ""
     },
@@ -120,7 +120,7 @@ var exemplars = [
         title: "Rural support (Common Agricultural Policy)",
         status: "beta",
         intro: "You’ll be able to submit accurate and verifiable information online about how you use your land, so you can claim subsidies under the Common Agricultural Policy",
-        url: "",
+        url: "www.gov.uk/transformation/rural-support",
         stat: "105k",
         statline: "transactions a year"
     },
@@ -141,7 +141,7 @@ var exemplars = [
         title: "Personalised registrations",
         status: "beta",
         intro: "If you want to transfer or apply for a number plate you’ll be able do it online, without having to visit a DVLA office",
-        url: "",
+        url: "www.gov.uk/transformation/personalised-number-plates",
         stat: "1.6m",
         statline: "transactions a year"
     },
@@ -151,7 +151,7 @@ var exemplars = [
         title: "Vehicle management",
         status: "beta",
         intro: "If you want to transfer ownership of a car you’ll be able to do it yourself online or using an intermediary",
-        url: "",
+        url: "www.gov.uk/transformation/manage-vehicle",
         stat: "18m",
         statline: "transactions a year"
     },
@@ -172,7 +172,7 @@ var exemplars = [
         title: "Claim personal independence payment (PIP)",
         status: "alpha",
         intro: "If you’re applying for financial help from government for living with disabilities there’ll be a simple digital service for you to use",
-        url: "",
+        url: "www.gov.uk/transformation/apply-pip",
         stat: "2m",
         statline: "people supported"
     },
@@ -182,7 +182,7 @@ var exemplars = [
         title: "Universal Credit",
         status: "beta",
         intro: "Universal Credit will roll 6 benefits and tax credits into 1 to simplify the system and ensure people are better off in work",
-        url: "",
+        url: "www.gov.uk/transformation/universal-credit",
         stat: "10m",
         statline: "adults supported"
     },
@@ -192,7 +192,7 @@ var exemplars = [
         title: "PAYE for employees",
         status: "beta",
         intro: "If you want to check or update your PAYE status you’ll be able to do it online, and see the effect on the tax you pay",
-        url: "",
+        url: "www.gov.uk/transformation/paye",
         stat: "41m",
         statline: "registered PAYE employees"
     },
@@ -203,7 +203,7 @@ var exemplars = [
         status: "beta",
         publicbeta: "true",
         intro: "If you’re registered for self-assessment you’ll be able to manage your tax with a fully digital service, without any more confusing paper correspondence",
-        url: "",
+        url: "www.gov.uk/transformation/business-tax-account",
         stat: "10m",
         statline: "registered for self-assessment"
     },
@@ -214,7 +214,7 @@ var exemplars = [
         status: "beta",
         publicbeta: "true",
         intro: "If you run a business you’ll be able to check how much tax you owe, learn about what you can and can’t claim, and pay your tax &mdash; all in one place",
-        url: "",
+        url: "www.gov.uk/transformation/self-assessment",
         stat: "4.9m",
         statline: "small businesses and people in self assessment"
     },
@@ -224,7 +224,7 @@ var exemplars = [
         title: "Agent online self-serve",
         status: "alpha",
         intro: "If you’re a tax agent you’ll be able to fully manage your clients’ tax with a simple online service",
-        url: "",
+        url: "www.gov.uk/transformation/register-as-tax-agent",
         stat: "120k",
         statline: "tax agents"
     },
@@ -234,7 +234,7 @@ var exemplars = [
         title: "Registered traveller service",
         status: "beta",
         intro: "If you’re an eligible, frequent traveller to the UK you’ll be able to easily apply to use e-passport gates, cutting time queuing at airports",
-        url: "",
+        url: "www.gov.uk/transformation/apply-registered-traveller",
         stat: "1m",
         statline: "journeys per year within 5 years"
     },
@@ -244,7 +244,7 @@ var exemplars = [
         title: "Passports",
         status: "beta",
         intro: "If you need to renew your passport you’ll be able to do it using a simple online service",
-        url: "",
+        url: "www.gov.uk/transformation/passports",
         stat: "",
         statline: ""
     },
@@ -255,7 +255,7 @@ var exemplars = [
         status: "beta",
         publicbeta: "true",
         intro: "If you need a visa to visit the UK you’ll be able to apply using a simple online service",
-        url: "",
+        url: "www.gov.uk/transformation/apply-visa",
         stat: "3.4m",
         statline: "visas issued a year"
     },
@@ -265,7 +265,7 @@ var exemplars = [
         title: "Civil claims",
         status: "live",
         intro: "Saving people money and hassle by creating a digital service for small claims, including money and possession claims",
-        url: "",
+        url: "www.gov.uk/accelerated-possession-eviction",
         stat: "1.5m",
         statline: "claims a year"
     },
@@ -276,7 +276,7 @@ var exemplars = [
         status: "beta",
         publicbeta: "true",
         intro: "If you’re lodging an appeal to an employment tribunal you’ll be able to apply and pay the accompanying fee online",
-        url: "",
+        url: "www.gov.uk/apply-employment-tribunal",
         stat: "200k",
         statline: "transactions per year"
     },
@@ -285,7 +285,6 @@ var exemplars = [
         number: 24,
         title: "Prison visit booking",
         status: "live",
-        publicbeta: "true",
         intro: "If you’re visiting a prison you’ll be able to book using a single service, offering a simpler, faster experience for families, friends and professionals",
         url: "www.gov.uk/prison-visits",
         stat: "1.5m",
