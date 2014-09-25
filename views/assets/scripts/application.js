@@ -17,7 +17,7 @@ var reveal = function() {
 
 var revealComplete = function() {
     // the reveal is complete, animations done. Set the length of time the "slide" should be visible for:
-    timeoutID = window.setTimeout(conceal, 6000);
+    timeoutID = window.setTimeout(conceal, 2000);
     //console.log(timeoutID);
 }
 
@@ -106,7 +106,7 @@ var exemplars = [
     {
         crest: "/assets/images/crest-defra.svg",
         number: 7,
-        title: "Waste carrier<br>registration",
+        title: "Waste carrier registration",
         status: "beta",
         publicbeta: "true",
         intro: "You can register as a waste carrier using this quick and easy online service",
@@ -272,7 +272,7 @@ var exemplars = [
     {
         crest: "/assets/images/crest-moj.svg",
         number: 23,
-        title: "Apply to an employment tribunal",
+        title: "Apply to an employment<br>tribunal",
         status: "beta",
         publicbeta: "true",
         intro: "If you’re lodging an appeal to an employment tribunal you’ll be able to apply and pay the accompanying fee online",

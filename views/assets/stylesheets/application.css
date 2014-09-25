@@ -217,6 +217,7 @@ img {
   position: relative;
   font-size: 140%;
   font-weight: bold;
+  letter-spacing: -0.005em;
 }
 
 .phase-tag {
