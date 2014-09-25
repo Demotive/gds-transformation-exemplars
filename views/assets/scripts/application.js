@@ -106,7 +106,7 @@ var exemplars = [
     {
         crest: "/assets/images/crest-defra.svg",
         number: 7,
-        title: "Waste carrier registration",
+        title: "Waste carrier<br>registration",
         status: "beta",
         publicbeta: "true",
         intro: "You can register as a waste carrier using this quick and easy online service",

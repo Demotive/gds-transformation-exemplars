@@ -157,11 +157,16 @@ body {
   margin: 0;
   font-family: "nta", Arial, sans-serif;
   font-weight: normal;
-  font-size: 250%;
+  font-size: 200%;
   line-height: 1;
   color: #0b0c0c;
   background-color: white;
   text-rendering: opitimizeLegibility;
+}
+@media (min-width: 1900px) {
+  body {
+    font-size: 250%;
+  }
 }
 
 p {
@@ -294,10 +299,15 @@ img {
 }
 
 #number {
-  font-size: 425%;
+  font-size: 350%;
   letter-spacing: -0.025em;
   line-height: 0.5;
   font-weight: bold;
+}
+@media (min-width: 1900px) {
+  #number {
+    font-size: 425%;
+  }
 }
 
 .caption {
